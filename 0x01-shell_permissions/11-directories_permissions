@@ -1,2 +1,2 @@
 #!/bin/bash
-li -d */
+chmod a+x *
