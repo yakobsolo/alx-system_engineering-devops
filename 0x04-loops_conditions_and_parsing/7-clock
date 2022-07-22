@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-# displays the time for 12 hours an d 59 minutes
-n=1
-while ((n <= 720))
+# displays the time for 12 hours and 59 minutes
+i=0
+j=1
+while [ $i -lt 13 ]
 do
-	((y=n/60))
-if ((n % 60 == 0))
-then
-echo "Hour: $y"
-else
-echo $n
-fi
-((n++))
+	echo "Hour: $i"
+	while [ $j -le 59 ]
+	do
+		echo "$j"
+		((j++))
+	done
+	j=1
+	((i++))
 done
-
