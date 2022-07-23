@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash0
 # script that stops 4-to_infinity_and_beyond
-var=$(pkill -9 -f "./4-to_infinity_and_beyond")
-echo "$var"
+pkill -9 -f "./4-to_infinity_and_beyond"
