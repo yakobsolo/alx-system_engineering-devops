@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #
-var=$(ps aux)
+var=$(ps auxf)
 echo "$var"
