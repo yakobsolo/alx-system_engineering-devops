@@ -1,5 +1,5 @@
 # Secured and Monitored Web Infrastructure
-[screenshot for sketch design](https://imgur.com/undefined)
+[screenshot for sketch design](https://imgur.com/Lnm491e)
 ## Specifics About This Infrastructure
 - The purpose of the firewalls.
 The firewalls are for protecting the network (web servers, anyway) from unwanted and unauthorized users by acting as an intermediary between the internal network and the external network and blocking the incoming traffic matching the aforementioned criteria.
