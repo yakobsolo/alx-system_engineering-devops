@@ -1,4 +1,5 @@
 # Simple web stack
+[sketch for simple webinfrastructure](https://imgur.com/QkVWl3J)
 
 ## specification of the infrustructure
 
