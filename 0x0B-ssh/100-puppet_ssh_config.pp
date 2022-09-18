@@ -1,10 +1,5 @@
-# connect with puppet
-file_line { 'Declare_identity_file':
-  path    => '/etc/ssh/ssh_config',
-  line    => 'IdentityFile ~/.ssh/holberton',
-}
-
-file_line { 'Turn_off_passwd_auth':
-  path    => '/etc/ssh/ssh_config',
-  line    => 'PasswordAuthentication no',
+# puppet ssh configuration
+exec { 'ssh_config':
+  path    => '/bin',
+  command => 'echo "PasswordAuthentication no" >> /etc/ssh/ssh_config; echo "IdentityFile ~/.ssh/holberton" >> /etc/ssh/ssh_config',
 }
