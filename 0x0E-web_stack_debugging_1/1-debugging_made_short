@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# makes nginx listen on port 80
+# makes nginx listen on port 80 end.
 
 sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
